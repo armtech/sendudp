@@ -55,7 +55,6 @@ int main(int argc, char *argv[])
 		#define BUFSIZE 256
 		char buf[BUFSIZE];
 		const char *message = buf;
-		int len = strlen(message);
 		static int count = 1;
 
 		// make a message
